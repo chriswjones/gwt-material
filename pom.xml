@@ -2,8 +2,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.gwtmaterialdesign.move</groupId>
-    <artifactId>gwt-material-parent-move</artifactId>
+    <groupId>com.github.gwtmaterialdesign</groupId>
+    <artifactId>gwt-material-parent</artifactId>
     <packaging>pom</packaging>
     <version>1.5-SNAPSHOT</version>
 
@@ -62,9 +62,8 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>ossrh</id>
-            <name>Sonatype Nexus snapshot repository</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <id>snapshots</id>
+            <url>https://repo.axismedtech.com/content/repositories/snapshots</url>
         </snapshotRepository>
         <repository>
             <id>sonatype-nexus-staging</id>
